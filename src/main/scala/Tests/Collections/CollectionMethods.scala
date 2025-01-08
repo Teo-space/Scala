@@ -1,4 +1,4 @@
-package Tests
+package Tests.Collections
 
 case class Maker(Value: Int, Name: String);
 

@@ -1,7 +1,8 @@
-package Tests
+package Tests.DataTypes
 
-import io.github.mutsuhiro6.util.ULID;
-import java.time.Instant;
+import io.github.mutsuhiro6.util.ULID
+import java.time.Instant
+
 
 object UlidScala {
 	def Run(): Unit = {

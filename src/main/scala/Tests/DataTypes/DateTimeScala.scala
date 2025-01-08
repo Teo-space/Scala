@@ -1,4 +1,4 @@
-package Tests
+package Tests.DataTypes
 
 import com.github.nscala_time.time.Imports.*
 
