@@ -6,6 +6,7 @@ import Tests.OOP.*
 import Tests.Collections.Immutable.*
 import Tests.Collections.Mutable.*
 import Tests.DataTypes.*
+import Tests.Serialize.*
 
 object main extends App
 {
@@ -14,32 +15,34 @@ object main extends App
 	//TryTest.Run();
 	//EitherTest.Run();
 
-
 	//CaseClass.Run();
 	//Class.Run();
 	//StringInterpolation.Run();
 	//WhileCycleTest.Run();
 	//ForCycleTest.Run();
-
-	//QueueTest.Run();
-	//ListTest.Run();
-	//VectorTest.Run();
-	//SetTest.Run();
-	//SortedSetTest.Run();
-	MapTest.Run();
-	TreeMapTest.Run();
-
-	//ArrayBufferTest.Run();
-	//ListBufferTest.Run();
-	//StringBuilderTest.Run();
-	//ArrayDequeTest.Run();
-	//QueueMutableTest.Run();
-	MapMutableTest.Run();
-
-
-
 	//PatternMatching.Run();
-	//CollectionMethods.Run();
+
+	if(true){
+		//CollectionMethods.Run();
+
+		//QueueTest.Run();
+		//ListTest.Run();
+		//VectorTest.Run();
+		//SetTest.Run();
+		//SortedSetTest.Run();
+		//MapTest.Run();
+		//TreeMapTest.Run();
+
+		//ArrayBufferTest.Run();
+		//ListBufferTest.Run();
+		//StringBuilderTest.Run();
+		//ArrayDequeTest.Run();
+		//QueueMutableTest.Run();
+		//MapMutableTest.Run();
+	}
+
+	PlayJsonSerializerTest.Run();
+
 	//DateTimeJava.Run();
 	//DateTimeScala.Run();
 	//UlidScala.Run();
