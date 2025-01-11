@@ -7,20 +7,20 @@ import Tests.Collections.Immutable.*
 import Tests.Collections.Mutable.*
 import Tests.DataTypes.*
 import Tests.Serialize.*
+import Tests.Concurrent.*
 
 object main extends App
 {
-	//MonadsUsageSample.Run();
-	//OptionTest.Run();
-	//TryTest.Run();
-	//EitherTest.Run();
-
 	//CaseClass.Run();
 	//Class.Run();
 	//StringInterpolation.Run();
 	//WhileCycleTest.Run();
 	//ForCycleTest.Run();
 	//PatternMatching.Run();
+
+	//DateTimeJava.Run();
+	//DateTimeScala.Run();
+	//UlidScala.Run();
 
 	if(true){
 		//CollectionMethods.Run();
@@ -41,9 +41,14 @@ object main extends App
 		//MapMutableTest.Run();
 	}
 
-	PlayJsonSerializerTest.Run();
+	//PlayJsonSerializerTest.Run();
 
-	//DateTimeJava.Run();
-	//DateTimeScala.Run();
-	//UlidScala.Run();
+	//MonadsUsageSample.Run();
+	//OptionTest.Run();
+	//TryTest.Run();
+	//EitherTest.Run();
+
+	FutureTest_OnComplete.Run();
+	FutureTest_For.Run();
+
 }
