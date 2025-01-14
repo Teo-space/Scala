@@ -3,8 +3,10 @@ import Tests.Monads.*
 import Tests.Cycles.*
 import Tests.Strings.*
 import Tests.OOP.*
+import Tests.Collections.*
 import Tests.Collections.Immutable.*
 import Tests.Collections.Mutable.*
+import Tests.Collections.MyImplementations.*
 import Tests.DataTypes.*
 import Tests.Serialize.*
 import Tests.Concurrent.*
@@ -25,9 +27,9 @@ object main extends App
 	if(true){
 		//CollectionMethods.Run();
 
-		//QueueTest.Run();
 		//ListTest.Run();
 		//VectorTest.Run();
+		//QueueTest.Run();
 		//SetTest.Run();
 		//SortedSetTest.Run();
 		//MapTest.Run();
@@ -39,6 +41,8 @@ object main extends App
 		//ArrayDequeTest.Run();
 		//QueueMutableTest.Run();
 		//MapMutableTest.Run();
+
+		MyListTest.Run();
 	}
 
 	//PlayJsonSerializerTest.Run();
@@ -48,7 +52,8 @@ object main extends App
 	//TryTest.Run();
 	//EitherTest.Run();
 
-	FutureTest_OnComplete.Run();
-	FutureTest_For.Run();
+	//FutureTest_OnComplete.Run();
+	//FutureTest_For.Run();
+
 
 }

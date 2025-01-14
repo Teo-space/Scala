@@ -2,6 +2,8 @@ package Tests.Collections.Immutable
 
 object ListTest {
 	def Run(): Unit = {
+		println()
+		println("ListTest")
 
 		val names: List[String] = List("Joel", "Chris", "Ed")
 
@@ -38,6 +40,7 @@ object ListTest {
 			}
 		}
 
+		ints.take(5)
 	}
 
 }

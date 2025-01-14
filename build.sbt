@@ -7,7 +7,8 @@ lazy val root = (project in file("."))
         name := "Scala",
         libraryDependencies ++= Seq(
             "org.playframework" %% "play-json" % "3.0.4",
-            "io.github.mutsuhiro6" % "ulid-scala3_3" % "1.0.0",
+
+            "io.github.mutsuhiro6" % "ulid-scala3_3" % "1.0.2",
             "com.github.nscala-time" %% "nscala-time" % "2.32.0"
         )
     )
