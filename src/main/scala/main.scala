@@ -27,7 +27,7 @@ object main extends App
 	if(true){
 		//CollectionMethods.Run();
 
-		//ListTest.Run();
+		ListTest.Run();
 		//VectorTest.Run();
 		//QueueTest.Run();
 		//SetTest.Run();
@@ -42,7 +42,7 @@ object main extends App
 		//QueueMutableTest.Run();
 		//MapMutableTest.Run();
 
-		MyListTest.Run();
+		//MyListTest.Run();
 	}
 
 	//PlayJsonSerializerTest.Run();

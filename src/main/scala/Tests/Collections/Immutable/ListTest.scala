@@ -32,6 +32,11 @@ object ListTest {
 			}
 		}
 
+		println(f"ListBuffer testAppended take")
+		Globals.Time {
+			testAppended.take(100)
+		}
+
 		println(f"ListBuffer testPrepended")
 		var testPrepended: List[Int] = List()
 		Globals.Time {
@@ -40,7 +45,9 @@ object ListTest {
 			}
 		}
 
-		ints.take(5)
+
+
+
 	}
 
 }
